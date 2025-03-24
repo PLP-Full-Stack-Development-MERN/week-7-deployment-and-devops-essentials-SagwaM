@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Container from "@/components/ui-custom/Container";
 import Section from "@/components/ui-custom/Section";
-import Button from "@/components/ui-custom/Button";
+import Button from "@mui/material/Button";
 import { useIntersectionAnimation } from "@/lib/animation";
 
 // Sample blog posts data

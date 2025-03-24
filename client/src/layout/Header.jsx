@@ -4,7 +4,7 @@ import {
   AppBar, 
   Toolbar, 
   Box, 
-  Button as MuiButton, 
+  Button, 
   IconButton, 
   Drawer, 
   List, 
@@ -63,7 +63,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 4 }}>
             {navigation.map((item) => (
-              <MuiButton 
+              <Button 
                 key={item.name}
                 component={RouterLink}
                 to={item.href}
@@ -78,7 +78,7 @@ const Header = () => {
                 }}
               >
                 {item.name}
-              </MuiButton>
+              </Button>
             ))}
             <Button size="sm" component={RouterLink} to="/login">
               Sign In

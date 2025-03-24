@@ -10,7 +10,7 @@ import {
   CardContent, 
   Avatar, 
   Button,
-  Container as MuiContainer,
+  Container,
   useTheme
 } from "@mui/material";
 import SimpleIcon from '@mui/icons-material/MoreHoriz';

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Container from "@/components/ui-custom/Container";
 import Section from "@/components/ui-custom/Section";
-import Button from "@/components/ui-custom/Button";
+import Button from "@mui/material/Button";
 
 const NotFound = () => {
   const location = useLocation();
